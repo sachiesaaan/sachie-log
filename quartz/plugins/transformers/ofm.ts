@@ -9,7 +9,7 @@ import { visit } from "unist-util-visit"
 import path from "path"
 import { JSResource } from "../../util/resources"
 // @ts-ignore
-import calloutScript from "../../components/scripts/callout.inline.ts"
+import calloutScript from "../../components/scripts/callout.inline"
 import { FilePath, pathToRoot, slugTag, slugifyFilePath } from "../../util/path"
 import { toHast } from "mdast-util-to-hast"
 import { toHtml } from "hast-util-to-html"
@@ -182,8 +182,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
           const [rawFp, rawHeader, rawAlias] = capture
           const fp = rawFp ?? ""
           const anchor = rawHeader?.trim().replace(/^#+/, "")
-          const blockRef = Boolean(anchor?.startsWith("^")) ? "^" : ""
-          const displayAnchor = anchor ? `#${blockRef}${slugAnchor(anchor)}` : ""
+          const displayAnchor = anchor ? `#${slugAnchor(anchor)}` : ""
           const displayAlias = rawAlias ?? rawHeader?.replace("#", "|") ?? ""
           const embedDisplay = value.startsWith("!") ? "!" : ""
           return `${embedDisplay}[[${fp}${displayAnchor}${displayAlias}]]`
