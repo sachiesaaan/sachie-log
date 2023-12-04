@@ -98,7 +98,7 @@ a {
     position: relative;
 
     & > h1 {
-      font-size: 2rem;
+      // font-size: 2rem;
     }
 
     & li:has(> input[type="checkbox"]) {
@@ -158,7 +158,7 @@ a {
     }
 
     & .sidebar.right {
-      margin-top: calc($topSpacing * 3);
+      // margin-top: calc($topSpacing * 3);
       right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
       & > * {
         @media all and (max-width: $fullPageWidth) {
@@ -242,7 +242,7 @@ h5,
 h6,
 thead {
   font-family: var(--headerFont);
-  color: var(--dark);
+  color: var(--darkgray);
   font-weight: revert;
   margin-bottom: 0;
 

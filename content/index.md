@@ -2,10 +2,11 @@
 title: Home
 ---
 
-インターネットにぷかぷかと浮かぶサチエさん。どこかに泳いでくわけでもなく、すやすやと眠っているかもしれない。
+インターネットにぷかぷかと浮かぶサチエの島。どこかに泳いでくわけでもなく、すやすやと眠っているかもしれない。
 PaperMod is a simple but fast and responsive theme with useful feature-set that enhances UX.
 Do give a 🌟 on Github !
 PaperMod is based on theme Paper.
+<br><br>
 
 📒[Dailynotes](/posts/10_Dailynotes)<br>
 日々の振り返り
