@@ -2,7 +2,8 @@ name: Update Submodule
 
 on:
   repository_dispatch:
-    types: [update]
+    types: 
+        - update
 
 jobs:
   build:
