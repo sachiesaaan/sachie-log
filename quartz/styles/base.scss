@@ -67,7 +67,7 @@ a {
 
   &.internal:not(:has(> img)) {
     text-decoration: none;
-    background-color: var(--highlight);
+    // background-color: var(--highlight);
     padding: 0 0.1rem;
     border-radius: 5px;
   }

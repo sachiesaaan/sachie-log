@@ -2,10 +2,9 @@
 title: Home
 ---
 
-インターネットにぷかぷかと浮かぶサチエの島。どこかに泳いでくわけでもなく、すやすやと眠っているかもしれない。
-PaperMod is a simple but fast and responsive theme with useful feature-set that enhances UX.
-Do give a 🌟 on Github !
-PaperMod is based on theme Paper.
+インターネットにぷかぷかと浮かぶ[Sachie](/posts/20_Notes/Sachie)のログ。
+どこかに泳いでくわけでもない。  
+かなり個人的な内容を含んでいるというか、ほぼ全てが書きかけです。
 <br><br>
 
 📒[Dailynotes](/posts/10_Dailynotes)<br>
@@ -28,6 +27,9 @@ PaperMod is based on theme Paper.
 
 ⚗️[Gigs](/tags/gig)<br>
 ギグ
+
+🕶️[Camp](posts/20_Notes/Camp)<br>
+キャンプ
 
 🏷️[Tags](/tags)<br>
 タグ一覧
