@@ -26,5 +26,5 @@ jobs:
     - name: Git push
       uses: ad-m/github-push-action@v0.5.0
       with:
-        branch: master
+        branch: main
         github_token: ${{ secrets.GITHUB_TOKEN }}
