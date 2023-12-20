@@ -7,7 +7,7 @@ import { Root } from "hast"
 import { pluralize } from "../../util/lang"
 import { htmlToJsx } from "../../util/jsx"
 
-const numPages = 10
+const numPages = 5
 function TagContent(props: QuartzComponentProps) {
   const { tree, fileData, allFiles } = props
   const slug = fileData.slug
@@ -52,17 +52,17 @@ function TagContent(props: QuartzComponentProps) {
             const content = contentPage?.description
             return (
               <div>
-                <h2>
+                <div>
                   <a class="internal tag-link" href={`../tags/${tag}`}>
                     #{tag}
                   </a>
-                </h2>
-                {content && <p>{content}</p>}
+                </div>
+                {/* {content && <p>{content}</p>}
                 <p>
                   {pluralize(pages.length, "item")} with this tag.{" "}
                   {pages.length > numPages && `Showing first ${numPages}.`}
                 </p>
-                <PageList limit={numPages} {...listProps} />
+                <PageList limit={numPages} {...listProps} /> */}
               </div>
             )
           })}
