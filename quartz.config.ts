@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "sachie.pages.dev",
+    baseUrl: "sachie.blog",
     ignorePatterns: ["private", "templates", ".obsidian", "posts/00_Assets/Templater", "posts/20_Notes/*vocab.md"],
     defaultDateType: "created",
     theme: {
