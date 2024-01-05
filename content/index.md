@@ -1,5 +1,6 @@
 ---
 title: Home
+date: 2023-12-09T18:39:11+09:00
 ---
 
 インターネットにぷかぷかと浮かぶ[Sachie](/posts/20_Notes/Sachie)のログ。

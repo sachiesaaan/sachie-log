@@ -1,3 +1,4 @@
 ---
 title: Daily notes
+date: 2023-12-09T18:39:11+09:00
 ---
