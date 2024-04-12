@@ -1,14 +1,15 @@
 ---
 title: Home
 ---
-## About Me
+### Me
 
 - sachie ([they/them](https://en.wikipedia.org/wiki/Singular_they))
 - Tokyo, Japan
 - Music Producer, Engineer
 - Matrix : [@sachiesaaan:matrix.org](https://matrix.to/#/@sachiesaaan:matrix.org)
 
-## Things I like
+
+### What I like
 
 - Food
     - [tsubugumi](https://www.kasugai.co.jp/tsubugumi/)
