@@ -6,12 +6,24 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
     Component.PageTitle(),
-    Component.Darkmode(),
+    // Component.Darkmode(),
+    Component.TopLinks({
+      links: {
+        "Now": "Now",
+        "Music": "Music",
+        "Movie": "Movie",
+        "Book": "Book",
+        "Posts": "Posts",
+        "Photos": "Photos"
+      }
+    }),
     Component.Search()
   ],
   footer: Component.Footer({
     links: {
       // put any links here
+      "dddd": "http://ozark.hendrix.edu/~yorgey/index.html",
+      "dddda": "http://ozark.hendrix.edu/~yorgey/index.html"
     },
   }),
 }
@@ -20,19 +32,18 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     // Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
+    // Component.ArticleTitle(),
+    // Component.ContentMeta(),
+    // Component.TagList(),
   ],
   left: [
-    
     Component.MobileOnly(Component.Spacer()),
     // Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
     // Component.Graph(),
     // Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    // Component.Backlinks(),
   ],
 }
 
