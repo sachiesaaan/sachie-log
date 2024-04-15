@@ -4,15 +4,19 @@ title: Now
 
 What I'm doing now.
 
-"I’m 21. After I graduated from high school, I literally did nothing for 3 years 😱. It was a long gap in my education. However, I learned two important things during that time: I love Music and Engineering. Now, I am planning to enroll in University."
+
+>"I’m 21. After I graduated from high school, I literally did nothing for 3 years 😱. It was a long gap in my education. However, I learned two important things during that time: I love Music and Engineering. Now, I am planning to enroll in University."
+
 
 ## Study
 
-I'm studying 35 hours a week.
+I study 35 hours a week.
+
+<iframe src="https://www.beeminder.com/widget?slug=study&username=sachie" height="185px" width="230px" frameborder="0px" ></iframe>
 
 ## Music
 
-I'm making a song a week.
+I make one song a week.
 
 ## Part-time job
 

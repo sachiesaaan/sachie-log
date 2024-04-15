@@ -3,13 +3,13 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "sachie",
+    pageTitle: "sachie.me 👋🌏",
     enableSPA: true,
     enablePopovers: false,
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "sachie.blog",
+    baseUrl: "sachie.me",
     ignorePatterns: ["private", "templates", ".obsidian", "vault"],
     defaultDateType: "created",
     theme: {
@@ -20,7 +20,7 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
+          light: "white",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "black",

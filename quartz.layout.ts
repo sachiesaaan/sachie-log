@@ -14,7 +14,7 @@ export const sharedPageComponents: SharedLayout = {
         "Movie": "Movie",
         "Book": "Book",
         "Posts": "Posts",
-        "Photos": "Photos"
+        "💚": "Love"
       }
     }),
     Component.Search()
@@ -22,8 +22,6 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       // put any links here
-      "dddd": "http://ozark.hendrix.edu/~yorgey/index.html",
-      "dddda": "http://ozark.hendrix.edu/~yorgey/index.html"
     },
   }),
 }

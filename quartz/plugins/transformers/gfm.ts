@@ -11,7 +11,7 @@ export interface Options {
 
 const defaultOptions: Options = {
   enableSmartyPants: true,
-  linkHeadings: true,
+  linkHeadings: false,
 }
 
 export const GitHubFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> | undefined> = (
@@ -33,7 +33,7 @@ export const GitHubFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> | 
               behavior: "append",
               content: {
                 type: "text",
-                value: " §",
+                value: " #",
               },
             },
           ],

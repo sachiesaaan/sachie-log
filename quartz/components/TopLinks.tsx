@@ -11,7 +11,7 @@ export default ((opts?: Options) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
     return (
-      <div class={`topLinks ${displayClass ?? ""}`}>
+      <div class={`top-links ${displayClass ?? ""}`}>
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>

@@ -55,14 +55,23 @@ ul,
   }
 }
 
-a {
-  // font-weight: 600;
+.page-title a {
   text-decoration: none;
-  transition: color 0.2s ease;
-  color: var(--darkgray);
 
   &:hover {
-    color: var(--lightgray) !important;
+    text-decoration: none;
+  }
+}
+
+a {
+  // font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+  color: green;
+
+  &:hover {
+    color: darkgreen !important;
+    text-decoration: underline;
   }
 
   &.internal:not(:has(> img)) {
