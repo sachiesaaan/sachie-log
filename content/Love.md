@@ -9,4 +9,4 @@ title: Love
 - Color
     - [Green](https://en.wikipedia.org/wiki/Green), [Orange](https://en.wikipedia.org/wiki/Channel_Orange), [Yellow](https://en.wikipedia.org/wiki/Yellow_Dancer)
 - Software
-    - Ableton Live 12, FL Studio 20
+    - Ableton Live 12, FL Studio 20, Anki, Beeminder
