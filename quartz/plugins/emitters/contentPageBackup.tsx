@@ -1,13 +1,13 @@
-import { QuartzEmitterPlugin } from "../types";
-import { QuartzComponentProps } from "../../components/types";
-import HeaderConstructor from "../../components/Header";
-import BodyConstructor from "../../components/Body";
-import { pageResources, renderPage } from "../../components/renderPage";
-import { FullPageLayout } from "../../cfg";
-import { FilePath, pathToRoot } from "../../util/path";
-import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout";
-import { Content, CustomContent } from "../../components";
-import chalk from "chalk";
+import { QuartzEmitterPlugin } from "../types"
+import { QuartzComponentProps } from "../../components/types"
+import HeaderConstructor from "../../components/Header"
+import BodyConstructor from "../../components/Body"
+import { pageResources, renderPage } from "../../components/renderPage"
+import { FullPageLayout } from "../../cfg"
+import { FilePath, pathToRoot } from "../../util/path"
+import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout"
+import { Content } from "../../components"
+import chalk from "chalk"
 
 export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpts) => {
   const opts: FullPageLayout = {
@@ -48,17 +48,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
           allFiles,
         }
 
-        let content;
-
-        if (slug === "custom") {
-          content = renderPage(slug, componentData, {
-            ...opts,
-            pageBody: CustomContent()/* Your custom component here */,
-          }, externalResources);
-        } else {
-          content = renderPage(slug, componentData, opts, externalResources)
-        }
-
+        const content = renderPage(slug, componentData, opts, externalResources)
         const fp = await emit({
           content,
           slug,

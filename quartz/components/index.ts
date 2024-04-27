@@ -1,4 +1,5 @@
 import Content from "./pages/Content"
+import CustomContent from "./pages/CustomContent"
 import TagContent from "./pages/TagContent"
 import FolderContent from "./pages/FolderContent"
 import NotFound from "./pages/404"
@@ -24,6 +25,7 @@ import TopLinks from "./TopLinks"
 export {
   ArticleTitle,
   Content,
+  CustomContent,
   TagContent,
   FolderContent,
   Darkmode,
