@@ -1,5 +1,6 @@
 ---
 title: Now
+publish: true
 ---
 
 What I'm doing now.
@@ -18,10 +19,9 @@ I study 35 hours a week.
 
 I make one song a week.
 
-## Part-time job
+### Recently Played
+<a href="https://www.last.fm/user/sachiesaaan"><img src="https://lastfm-recently-played.vercel.app/api?user=sachiesaaan" height="auto" width="350px"/></a>
 
-I'm doing part-time job as an engineer 3 days a week.
-(I'll quit for my study time)
 
 [Habits](https://www.beeminder.com/sachie/gallery)
 

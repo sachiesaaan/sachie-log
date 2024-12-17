@@ -14,7 +14,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <p>
-          © {year} Sachie / Created with <a href="https://github.com/jackyzha0/quartz">quartz</a>
+          © {year} SACHIE
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (

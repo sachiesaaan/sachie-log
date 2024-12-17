@@ -1,5 +1,6 @@
 ---
 title: book
+publish: true
 ---
 
 <iframe width="100%" height="229.09375" frameborder="0"

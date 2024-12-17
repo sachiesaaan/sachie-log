@@ -1,5 +1,6 @@
 ---
 title: Home
+publish: true
 ---
 ### About Me
 ![[static/Alice Paul.png | 300]]

@@ -1,5 +1,6 @@
 ---
 title: Love
+publish: true
 ---
 
 - Food
