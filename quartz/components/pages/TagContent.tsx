@@ -79,7 +79,7 @@ function TagContent(props: QuartzComponentProps) {
     return (
       <div class="popover-hint">
         <article>{content}</article>
-        <p>{pluralize(pages.length, "item")} with this tag.</p>
+        {/*<p>{pluralize(pages.length, "item")} with this tag.</p>*/}
         <div>
           <PageList {...listProps} />
         </div>

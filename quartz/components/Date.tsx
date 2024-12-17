@@ -15,7 +15,7 @@ export function getDate(cfg: GlobalConfiguration, data: QuartzPluginData): Date 
   }
   return data.dates?.[cfg.defaultDateType]
 }
-
+/*
 export function formatDate(d: Date): string {
   return d.toLocaleDateString("en-US", {
     year: "numeric",
@@ -23,6 +23,12 @@ export function formatDate(d: Date): string {
     day: "2-digit",
   })
 }
+  */
+
+export function formatDate(d: Date): string {
+  return d.toISOString().split("T")[0] // Outputs: "2024-12-17"
+}
+
 
 export function Date({ date }: Props) {
   return <>{formatDate(date)}</>

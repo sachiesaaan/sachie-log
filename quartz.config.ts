@@ -56,7 +56,7 @@ const config: QuartzConfig = {
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.Description(),
     ],
-    filters: [Plugin.RemoveDrafts(), Plugin.ExplicitPublish()],
+    filters: [Plugin.RemoveDrafts(), Plugin.FilterPublic()],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources({ fontOrigin: "googleFonts" }),
