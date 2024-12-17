@@ -24,7 +24,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
   return {
     name: "ContentPage",
     getQuartzComponents() {
-      return [Head, Header, Body, ...header, ...beforeBody, pageBody, ...left, ...right, Footer]
+      return [Head, Header, Body, ...header, ...beforeBody, pageBody, ...left, ...right, Footer, CustomContent()]
     },
     async emit(ctx, content, resources, emit): Promise<FilePath[]> {
       const cfg = ctx.cfg.configuration

@@ -1,3 +1,3 @@
-[submodule "content/vault"]
-	path = content/vault
-	url = git@github.com:standingflower0607/sachie-obsidian.git
+[submodule "content/sachie-obsidian"]
+	path = content/sachie-obsidian
+	url = git@github.com:sachiesaaan/sachie-obsidian.git
