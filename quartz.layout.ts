@@ -9,12 +9,12 @@ export const sharedPageComponents: SharedLayout = {
     // Component.Darkmode(),
     Component.TopLinks({
       links: {
-        "Now": "Now",
-        "Music": "Music",
-        "Movie": "Movie",
-        "Book": "Book",
-        "Posts": "Posts",
-        "💚": "Love"
+        "Now": "/Now",
+        "Music": "/Music",
+        "Movies": "/tags/source/movie",
+        "Books": "/tags/source/book",
+        "Posts": "/sachie-obsidian",
+        "💚": "/Love"
       }
     }),
     Component.Search()

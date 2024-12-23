@@ -21,13 +21,10 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import TopLinks from "./TopLinks"
-import CustomComponent from "./CustomComponent"
 
 export {
   ArticleTitle,
   Content,
-  CustomContent,
-  CustomComponent,
   TagContent,
   FolderContent,
   Darkmode,

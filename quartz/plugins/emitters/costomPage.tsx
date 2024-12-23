@@ -6,7 +6,7 @@ import { pageResources, renderPage } from "../../components/renderPage";
 import { FullPageLayout } from "../../cfg";
 import { FilePath, pathToRoot } from "../../util/path";
 import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout";
-import { Content, CustomContent } from "../../components";
+import { Content } from "../../components";
 import chalk from "chalk";
 
 export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpts) => {
@@ -38,49 +38,26 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
                     containsIndex = true;
                 }
 
-                if (slug === "custom") {
-                    // Specific logic for the "custom" page
-                    // For example, you can use a different template or component
-                    const customComponentData: QuartzComponentProps = {
-                        fileData: file.data,
-                        externalResources: pageResources(pathToRoot(slug), resources),
-                        cfg,
-                        children: [],
-                        tree,
-                        allFiles,
-                    };
 
-                    const customContent = renderPage(slug, customComponentData, {
-                        ...opts,
-                        pageBody: CustomContent()/* Your custom component here */,
-                    }, customComponentData.externalResources);
+                // Default logic for other pages
+                const componentData: QuartzComponentProps = {
+                    fileData: file.data,
+                    externalResources: pageResources(pathToRoot(slug), resources),
+                    cfg,
+                    children: [],
+                    tree,
+                    allFiles,
+                };
 
-                    const customFp = await emit({
-                        content: customContent,
-                        slug,
-                        ext: ".html",
-                    });
-                    fps.push(customFp);
-                } else {
-                    // Default logic for other pages
-                    const componentData: QuartzComponentProps = {
-                        fileData: file.data,
-                        externalResources: pageResources(pathToRoot(slug), resources),
-                        cfg,
-                        children: [],
-                        tree,
-                        allFiles,
-                    };
+                const content = renderPage(slug, componentData, opts, componentData.externalResources);
 
-                    const content = renderPage(slug, componentData, opts, componentData.externalResources);
+                const fp = await emit({
+                    content,
+                    slug,
+                    ext: ".html",
+                });
+                fps.push(fp);
 
-                    const fp = await emit({
-                        content,
-                        slug,
-                        ext: ".html",
-                    });
-                    fps.push(fp);
-                }
             }
 
             if (!containsIndex) {
