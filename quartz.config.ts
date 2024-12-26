@@ -10,7 +10,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "sachie.me",
-    ignorePatterns: ["private", ".obsidian", "sachie-obsidian/Utilities/Templates"],
+    ignorePatterns: ["private", ".obsidian", "Posts/Utilities/Templates"],
     defaultDateType: "created",
     theme: {
       typography: {
