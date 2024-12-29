@@ -11,7 +11,6 @@ function ArticleTitle({ fileData, displayClass }: QuartzComponentProps) {
 ArticleTitle.css = `
 .article-title {
   margin: 3rem 0;
-  text-align: center;
 }
 `
 

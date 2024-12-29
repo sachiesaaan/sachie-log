@@ -6,9 +6,6 @@ publish: true
 What I'm doing now.
 
 
->"I’m 21. After I graduated from high school, I literally did nothing for 3 years 😱. It was a long gap in my education. However, I learned two important things during that time: I love Music and Engineering. Now, I am planning to enroll in University."
-
-
 ## Study
 
 I study 35 hours a week.

@@ -2,7 +2,7 @@
 title: Home
 publish: true
 ---
-### About Me
+
 ![[static/Alice Paul.png | 300]]
 
 
@@ -10,8 +10,7 @@ publish: true
 - Tokyo, Japan 🗾
 - Music Producer, Engineer
 - Matrix : [@sachiesaaan:matrix.org](https://matrix.to/#/@sachiesaaan:matrix.org)
-
-
+- 🏷️ [tags](/tags)
 
 
 

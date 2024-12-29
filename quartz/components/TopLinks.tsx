@@ -15,7 +15,7 @@ export default ((opts?: Options) => {
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
-              <a href={link}>{text}</a>
+              <a class="top-link" href={link}>{text}</a>
             </li>
           ))}
         </ul>
@@ -26,3 +26,6 @@ export default ((opts?: Options) => {
 
   return TopLinks
 }) satisfies QuartzComponentConstructor
+
+
+

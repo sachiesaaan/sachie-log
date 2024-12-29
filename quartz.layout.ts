@@ -7,16 +7,19 @@ export const sharedPageComponents: SharedLayout = {
   header: [
     Component.PageTitle(),
     // Component.Darkmode(),
+
     Component.TopLinks({
       links: {
-        "Now": "/Now",
-        "Music": "/Music",
-        "Movies": "/tags/source/movie",
-        "Books": "/tags/source/book",
-        "Posts": "/Posts/Notes",
+        "🕓": "/Now",
+        "📝": "/Posts/Notes",
+        // "Music": "/Music",
+        // "Movies": "/tags/source/movie",
+        "☕": "/tags/source/book",
+
         "💚": "/Love"
       }
     }),
+
     Component.Search()
   ],
   footer: Component.Footer({
