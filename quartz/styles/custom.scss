@@ -1,3 +1,36 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+.page-title a {
+    text-decoration: none;
+    color:green;
+  
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  
+  a {
+    // font-weight: 600;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+    color: black;
+    text-decoration-color: green;
+  
+    &:hover {
+      color: darkgreen !important;
+      text-decoration: underline;
+    }
+  
+    &.internal:not(:has(> img)) {
+      text-decoration: underline;
+      // background-color: var(--highlight);
+      padding: 0 0.1rem;
+      border-radius: 5px;
+      text-decoration-color: green;
+    }
+  }
+
+  .footnotes {
+    font-size: 0.8rem
+  }
