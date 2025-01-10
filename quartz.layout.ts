@@ -15,7 +15,6 @@ export const sharedPageComponents: SharedLayout = {
         // "Music": "/Music",
         // "Movies": "/tags/source/movie",
         "☕": "/tags/source/book",
-
         "💚": "/Love"
       }
     }),

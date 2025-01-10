@@ -13,8 +13,6 @@ function NotFound() {
 
 NotFound.css = `
 .article-title {
-  margin: 3rem 0;
-  text-align: center;
 }
 `
 
