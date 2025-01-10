@@ -11,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
     Component.TopLinks({
       links: {
         "🕓": "/Now",
-        "📝": "/Posts/Notes",
+        "📝": "/Notes",
         // "Music": "/Music",
         // "Movies": "/tags/source/movie",
         "☕": "/tags/source/book",

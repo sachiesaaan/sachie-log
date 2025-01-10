@@ -14,7 +14,9 @@ function PageTitle({ fileData, cfg, displayClass }: QuartzComponentProps) {
 PageTitle.css = `
 .page-title {
   margin: 0;
+  
 }
+
 `
 
 export default (() => PageTitle) satisfies QuartzComponentConstructor
