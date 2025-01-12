@@ -12,7 +12,7 @@ export const sharedPageComponents: SharedLayout = {
       links: {
         "📝": "/Notes",
         "🎬": "/Seen",
-        "📖": "/Read",
+        "📘": "/Read",
         "💚": "/💚Love"
       }
     }),
