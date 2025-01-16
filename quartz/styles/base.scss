@@ -542,3 +542,33 @@ ol.overflow {
     padding-left: 1rem;
   }
 }
+
+@media (max-width: $mobileBreakpoint) {
+  .page>#quartz-body .sidebar {
+    margin-top: 0rem;
+  }
+
+  .page>#quartz-body ul {
+    padding-inline-start: 20px;
+  }
+
+  .page>#quartz-body ol {
+    padding-inline-start: 20px;
+  }
+
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+header h1 {
+  margin: 0;
+  flex: auto;
+}
+
+.article-title {
+  text-align: center;
+}
+
