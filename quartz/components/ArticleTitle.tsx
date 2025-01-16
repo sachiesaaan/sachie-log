@@ -9,9 +9,7 @@ function ArticleTitle({ fileData, displayClass }: QuartzComponentProps) {
   }
 }
 ArticleTitle.css = `
-.article-title {
-  text-align: center;
-}
+
 `
 
 export default (() => ArticleTitle) satisfies QuartzComponentConstructor
