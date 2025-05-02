@@ -2,25 +2,25 @@ name: Update Submodule
 
 on:
   repository_dispatch:
-    types: 
-        - update
+    types:
+      - update
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-      with:
-        submodules: true
-        token: ${{ secrets.PAT }}
-    - name: Update submodule
-      run: |
-        git submodule update --remote ./content
-    - name: Git commit
-      run: |
-        git config --local user.name "standingflower0607"
-        git config --local user.email "tachibanaa1211@gmail.com"
-        git add -A
-        git status
-        git commit -m "update submodule (by update_submodule.yml)"
-        git push origin main
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+          token: ${{ secrets.PAT }}
+      - name: Update submodule
+        run: |
+          git submodule update --remote ./content
+      - name: Git commit
+        run: |
+          git config --local user.name "sachiesaaan"
+          git config --local user.email "tachibanaa1211@gmail.com"
+          git add -A
+          git status
+          git commit -m "update submodule (by update_submodule.yml)"
+          git push origin main
