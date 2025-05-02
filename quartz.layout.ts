@@ -10,10 +10,10 @@ export const sharedPageComponents: SharedLayout = {
 
     Component.TopLinks({
       links: {
+        "📆": "/tags/monthly",
         "📝": "/Notes",
-        "🎬": "/Seen",
-        "📘": "/Read",
-        "💚": "/💚Love"
+        "👀": "/Seen",
+        "☕": "/Read"
       }
     }),
 
