@@ -17,7 +17,7 @@
     // font-weight: 600;
     text-decoration: underline;
     transition: color 0.2s ease;
-    color: black;
+    color: green;
     text-decoration-color: green;
   
     &:hover {
@@ -33,9 +33,40 @@
       text-decoration-color: green;
     }
   }
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  overflow-x: hidden;
+  width: 100vw;
+  font-size: 14px; // -> 14px
+}
 
-  .footnotes {
-    font-size: 0.8rem
-  }
+h1 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.02rem;
+  margin-top: 1.62rem;
+  margin-bottom: 1rem;
+}
+
+.article-title {
+    color: orange;
+}
+
+
+.footnotes {
+  font-size: 0.8rem
+}
 
 

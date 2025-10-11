@@ -7,7 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [
     Component.PageTitle(),
     // Component.Darkmode(),
-
+    /*
     Component.TopLinks({
       links: {
         "📆": "/tags/monthly",
@@ -15,7 +15,7 @@ export const sharedPageComponents: SharedLayout = {
         "👀": "/Seen",
         "☕": "/Read"
       }
-    }),
+    }),*/
 
     Component.Search()
   ],
@@ -39,7 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    // Component.Graph(),
+    Component.Graph(),
     // Component.DesktopOnly(Component.TableOfContents()),
     // Component.Backlinks(),
   ],
