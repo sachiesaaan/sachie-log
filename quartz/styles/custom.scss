@@ -3,16 +3,16 @@
 
 // put your custom CSS here!
 
-
 .page-title a {
     text-decoration: none;
-    color:green;
+    color:rgb(0, 175, 0);
   
     &:hover {
       text-decoration: none;
     }
   }
-  
+
+
   a {
     // font-weight: 600;
     text-decoration: underline;
@@ -61,7 +61,11 @@ h3 {
 }
 
 .article-title {
-    color: orange;
+  // color: orange;
+}
+
+header{
+  margin-bottom: 2rem;
 }
 
 
